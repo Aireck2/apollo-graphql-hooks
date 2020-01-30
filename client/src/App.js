@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <MenuBar />
-      <div style={{ padding: "40px" }}>
+      <div style={{ padding: "40px 80px" }}>
         <Route exact path="/" component={Home} />
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
